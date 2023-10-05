@@ -201,7 +201,6 @@
             panel17.Name = "panel17";
             panel17.Size = new Size(41, 40);
             panel17.TabIndex = 36;
-            panel17.Paint += panel17_Paint;
             // 
             // panel18
             // 

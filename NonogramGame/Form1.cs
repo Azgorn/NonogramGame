@@ -146,10 +146,5 @@ namespace NonogramGame
             PrintHintsRow(rowSequence);
             PrintsHintsCol(colSequence);
         }
-
-        private void panel17_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
