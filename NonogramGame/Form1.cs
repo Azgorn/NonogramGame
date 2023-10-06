@@ -215,7 +215,7 @@ namespace NonogramGame
                     isCorrect = true;
                 }
                 else
-                    isCorrect = false;
+                    return false;
             }
             return isCorrect;
         }
