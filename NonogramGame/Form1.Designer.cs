@@ -63,208 +63,283 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            btnCheckSolution = new Button();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.Control;
+            panel1.BackColor = Color.White;
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Location = new Point(250, 213);
             panel1.Name = "panel1";
             panel1.Size = new Size(41, 40);
             panel1.TabIndex = 25;
+            panel1.MouseDown += Panel_MouseDown;
             // 
             // panel2
             // 
+            panel2.BackColor = Color.White;
+            panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Location = new Point(296, 213);
             panel2.Name = "panel2";
             panel2.Size = new Size(41, 40);
             panel2.TabIndex = 26;
+            panel2.MouseDown += Panel_MouseDown;
             // 
             // panel3
             // 
+            panel3.BackColor = Color.White;
+            panel3.BackgroundImageLayout = ImageLayout.Stretch;
             panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Location = new Point(342, 213);
             panel3.Name = "panel3";
             panel3.Size = new Size(41, 40);
             panel3.TabIndex = 26;
+            panel3.MouseDown += Panel_MouseDown;
             // 
             // panel4
             // 
+            panel4.BackColor = Color.White;
+            panel4.BackgroundImageLayout = ImageLayout.Stretch;
             panel4.BorderStyle = BorderStyle.FixedSingle;
             panel4.Location = new Point(388, 213);
             panel4.Name = "panel4";
             panel4.Size = new Size(41, 40);
             panel4.TabIndex = 26;
+            panel4.MouseDown += Panel_MouseDown;
             // 
             // panel5
             // 
+            panel5.BackColor = Color.White;
+            panel5.BackgroundImageLayout = ImageLayout.Stretch;
             panel5.BorderStyle = BorderStyle.FixedSingle;
             panel5.Location = new Point(434, 213);
             panel5.Name = "panel5";
             panel5.Size = new Size(41, 40);
             panel5.TabIndex = 26;
+            panel5.MouseDown += Panel_MouseDown;
             // 
             // panel6
             // 
+            panel6.BackColor = Color.White;
+            panel6.BackgroundImageLayout = ImageLayout.Stretch;
             panel6.BorderStyle = BorderStyle.FixedSingle;
             panel6.Location = new Point(250, 259);
             panel6.Name = "panel6";
             panel6.Size = new Size(41, 40);
             panel6.TabIndex = 27;
+            panel6.MouseDown += Panel_MouseDown;
             // 
             // panel7
             // 
+            panel7.BackColor = Color.White;
+            panel7.BackgroundImageLayout = ImageLayout.Stretch;
             panel7.BorderStyle = BorderStyle.FixedSingle;
             panel7.Location = new Point(296, 259);
             panel7.Name = "panel7";
             panel7.Size = new Size(41, 40);
             panel7.TabIndex = 27;
+            panel7.MouseDown += Panel_MouseDown;
             // 
             // panel8
             // 
+            panel8.BackColor = Color.White;
+            panel8.BackgroundImageLayout = ImageLayout.Stretch;
             panel8.BorderStyle = BorderStyle.FixedSingle;
             panel8.Location = new Point(342, 259);
             panel8.Name = "panel8";
             panel8.Size = new Size(41, 40);
             panel8.TabIndex = 28;
+            panel8.MouseDown += Panel_MouseDown;
             // 
             // panel9
             // 
+            panel9.BackColor = Color.White;
+            panel9.BackgroundImageLayout = ImageLayout.Stretch;
             panel9.BorderStyle = BorderStyle.FixedSingle;
             panel9.Location = new Point(388, 259);
             panel9.Name = "panel9";
             panel9.Size = new Size(41, 40);
             panel9.TabIndex = 29;
+            panel9.MouseDown += Panel_MouseDown;
             // 
             // panel10
             // 
+            panel10.BackColor = Color.White;
+            panel10.BackgroundImageLayout = ImageLayout.Stretch;
             panel10.BorderStyle = BorderStyle.FixedSingle;
             panel10.Location = new Point(434, 259);
             panel10.Name = "panel10";
             panel10.Size = new Size(41, 40);
             panel10.TabIndex = 30;
+            panel10.MouseDown += Panel_MouseDown;
             // 
             // panel11
             // 
+            panel11.BackColor = Color.White;
+            panel11.BackgroundImageLayout = ImageLayout.Stretch;
             panel11.BorderStyle = BorderStyle.FixedSingle;
             panel11.Location = new Point(250, 305);
             panel11.Name = "panel11";
             panel11.Size = new Size(41, 40);
             panel11.TabIndex = 31;
+            panel11.MouseDown += Panel_MouseDown;
             // 
             // panel12
             // 
+            panel12.BackColor = Color.White;
+            panel12.BackgroundImageLayout = ImageLayout.Stretch;
             panel12.BorderStyle = BorderStyle.FixedSingle;
             panel12.Location = new Point(296, 305);
             panel12.Name = "panel12";
             panel12.Size = new Size(41, 40);
             panel12.TabIndex = 27;
+            panel12.MouseDown += Panel_MouseDown;
             // 
             // panel13
             // 
+            panel13.BackColor = Color.White;
+            panel13.BackgroundImageLayout = ImageLayout.Stretch;
             panel13.BorderStyle = BorderStyle.FixedSingle;
             panel13.Location = new Point(342, 305);
             panel13.Name = "panel13";
             panel13.Size = new Size(41, 40);
             panel13.TabIndex = 32;
+            panel13.MouseDown += Panel_MouseDown;
             // 
             // panel14
             // 
+            panel14.BackColor = Color.White;
+            panel14.BackgroundImageLayout = ImageLayout.Stretch;
             panel14.BorderStyle = BorderStyle.FixedSingle;
             panel14.Location = new Point(388, 305);
             panel14.Name = "panel14";
             panel14.Size = new Size(41, 40);
             panel14.TabIndex = 33;
+            panel14.MouseDown += Panel_MouseDown;
             // 
             // panel15
             // 
+            panel15.BackColor = Color.White;
+            panel15.BackgroundImageLayout = ImageLayout.Stretch;
             panel15.BorderStyle = BorderStyle.FixedSingle;
             panel15.Location = new Point(434, 305);
             panel15.Name = "panel15";
             panel15.Size = new Size(41, 40);
             panel15.TabIndex = 34;
+            panel15.MouseDown += Panel_MouseDown;
             // 
             // panel16
             // 
+            panel16.BackColor = Color.White;
+            panel16.BackgroundImageLayout = ImageLayout.Stretch;
             panel16.BorderStyle = BorderStyle.FixedSingle;
             panel16.Location = new Point(250, 351);
             panel16.Name = "panel16";
             panel16.Size = new Size(41, 40);
             panel16.TabIndex = 35;
+            panel16.MouseDown += Panel_MouseDown;
             // 
             // panel17
             // 
+            panel17.BackColor = Color.White;
+            panel17.BackgroundImageLayout = ImageLayout.Stretch;
             panel17.BorderStyle = BorderStyle.FixedSingle;
             panel17.Location = new Point(296, 351);
             panel17.Name = "panel17";
             panel17.Size = new Size(41, 40);
             panel17.TabIndex = 36;
+            panel17.MouseDown += Panel_MouseDown;
             // 
             // panel18
             // 
+            panel18.BackColor = Color.White;
+            panel18.BackgroundImageLayout = ImageLayout.Stretch;
             panel18.BorderStyle = BorderStyle.FixedSingle;
             panel18.Location = new Point(342, 351);
             panel18.Name = "panel18";
             panel18.Size = new Size(41, 40);
             panel18.TabIndex = 37;
+            panel18.MouseDown += Panel_MouseDown;
             // 
             // panel19
             // 
+            panel19.BackColor = Color.White;
+            panel19.BackgroundImageLayout = ImageLayout.Stretch;
             panel19.BorderStyle = BorderStyle.FixedSingle;
             panel19.Location = new Point(388, 351);
             panel19.Name = "panel19";
             panel19.Size = new Size(41, 40);
             panel19.TabIndex = 33;
+            panel19.MouseDown += Panel_MouseDown;
             // 
             // panel20
             // 
+            panel20.BackColor = Color.White;
+            panel20.BackgroundImageLayout = ImageLayout.Stretch;
             panel20.BorderStyle = BorderStyle.FixedSingle;
             panel20.Location = new Point(434, 351);
             panel20.Name = "panel20";
             panel20.Size = new Size(41, 40);
             panel20.TabIndex = 38;
+            panel20.MouseDown += Panel_MouseDown;
             // 
             // panel21
             // 
+            panel21.BackColor = Color.White;
+            panel21.BackgroundImageLayout = ImageLayout.Stretch;
             panel21.BorderStyle = BorderStyle.FixedSingle;
             panel21.Location = new Point(250, 397);
             panel21.Name = "panel21";
             panel21.Size = new Size(41, 40);
             panel21.TabIndex = 39;
+            panel21.MouseDown += Panel_MouseDown;
             // 
             // panel22
             // 
+            panel22.BackColor = Color.White;
+            panel22.BackgroundImageLayout = ImageLayout.Stretch;
             panel22.BorderStyle = BorderStyle.FixedSingle;
             panel22.Location = new Point(296, 397);
             panel22.Name = "panel22";
             panel22.Size = new Size(41, 40);
             panel22.TabIndex = 33;
+            panel22.MouseDown += Panel_MouseDown;
             // 
             // panel23
             // 
+            panel23.BackColor = Color.White;
+            panel23.BackgroundImageLayout = ImageLayout.Stretch;
             panel23.BorderStyle = BorderStyle.FixedSingle;
             panel23.Location = new Point(342, 397);
             panel23.Name = "panel23";
             panel23.Size = new Size(41, 40);
             panel23.TabIndex = 40;
+            panel23.MouseDown += Panel_MouseDown;
             // 
             // panel24
             // 
+            panel24.BackColor = Color.White;
+            panel24.BackgroundImageLayout = ImageLayout.Stretch;
             panel24.BorderStyle = BorderStyle.FixedSingle;
             panel24.Location = new Point(388, 397);
             panel24.Name = "panel24";
             panel24.Size = new Size(41, 40);
             panel24.TabIndex = 41;
+            panel24.MouseDown += Panel_MouseDown;
             // 
             // panel25
             // 
+            panel25.BackColor = Color.White;
+            panel25.BackgroundImageLayout = ImageLayout.Stretch;
             panel25.BorderStyle = BorderStyle.FixedSingle;
             panel25.Location = new Point(434, 397);
             panel25.Name = "panel25";
             panel25.Size = new Size(41, 40);
             panel25.TabIndex = 42;
+            panel25.MouseDown += Panel_MouseDown;
             // 
             // label1
             // 
@@ -356,11 +431,22 @@
             label10.TabIndex = 52;
             label10.Text = "label10";
             // 
+            // btnCheckSolution
+            // 
+            btnCheckSolution.Location = new Point(316, 443);
+            btnCheckSolution.Name = "btnCheckSolution";
+            btnCheckSolution.Size = new Size(94, 29);
+            btnCheckSolution.TabIndex = 53;
+            btnCheckSolution.Text = "Check Solution";
+            btnCheckSolution.UseVisualStyleBackColor = true;
+            btnCheckSolution.Click += btnCheckSolution_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(732, 703);
+            Controls.Add(btnCheckSolution);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -439,5 +525,6 @@
         private Label label8;
         private Label label9;
         private Label label10;
+        private Button btnCheckSolution;
     }
 }
