@@ -349,6 +349,7 @@
             label1.Size = new Size(50, 20);
             label1.TabIndex = 43;
             label1.Text = "label1";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -358,6 +359,7 @@
             label2.Size = new Size(50, 20);
             label2.TabIndex = 44;
             label2.Text = "label2";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -367,6 +369,7 @@
             label3.Size = new Size(50, 20);
             label3.TabIndex = 45;
             label3.Text = "label3";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -376,6 +379,7 @@
             label4.Size = new Size(50, 20);
             label4.TabIndex = 46;
             label4.Text = "label4";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -385,6 +389,7 @@
             label5.Size = new Size(50, 20);
             label5.TabIndex = 47;
             label5.Text = "label5";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -394,6 +399,7 @@
             label6.Size = new Size(50, 20);
             label6.TabIndex = 48;
             label6.Text = "label6";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -403,6 +409,7 @@
             label7.Size = new Size(50, 20);
             label7.TabIndex = 49;
             label7.Text = "label7";
+            label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -412,6 +419,7 @@
             label8.Size = new Size(50, 20);
             label8.TabIndex = 50;
             label8.Text = "label8";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label9
             // 
@@ -421,6 +429,7 @@
             label9.Size = new Size(50, 20);
             label9.TabIndex = 51;
             label9.Text = "label9";
+            label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
@@ -430,6 +439,7 @@
             label10.Size = new Size(58, 20);
             label10.TabIndex = 52;
             label10.Text = "label10";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnCheckSolution
             // 

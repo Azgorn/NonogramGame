@@ -186,24 +186,24 @@ namespace NonogramGame
             int count = 0;
             byte[] flatAnswer = To1DArray(answer);
 
-            
-            
-            while(true)
+
+
+            while (true)
             {
                 Panel panel = this.Controls.Find("panel" + indexPanel.ToString(), true).FirstOrDefault() as Panel;
                 Color panelColor = panel.BackColor;
-                if (panel.BackgroundImage == null && (panelColor == Color.FromArgb(255,76,76,76))) 
+                if (panel.BackgroundImage == null && (panelColor == Color.FromArgb(255, 76, 76, 76)))
                 {
                     userInput[count] = 1;
                 }
-                else if(panel.BackgroundImage != null)
+                else if (panel.BackgroundImage != null)
                 {
                     userInput[count] = 0;
                 }
                 indexPanel++;
                 count++;
 
-                if(count >= 25)
+                if (count >= 25)
                 {
                     break;
                 }
@@ -219,15 +219,15 @@ namespace NonogramGame
             }
             return isCorrect;
         }
-
+        Random random = new Random();
         byte[,] solution = {
-            {1, 0, 1, 1, 0}, 
-            {0, 0, 0, 1, 0}, 
-            {1, 1, 0, 0, 0}, 
-            {0, 1, 0, 1, 1}, 
+            {1, 0, 1, 1, 0},
+            {0, 0, 0, 1, 0},
+            {1, 1, 0, 0, 0},
+            {0, 1, 0, 1, 1},
             {1, 0, 0, 0, 0 },
         };
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Dictionary<int, List<int>> rowSequence = new Dictionary<int, List<int>>();
@@ -246,7 +246,7 @@ namespace NonogramGame
                 MessageBox.Show("Right answer");
             }
             else
-                MessageBox.Show("Fuck you");
+                MessageBox.Show("Wrong answer");
         }
     }
 }
